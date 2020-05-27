@@ -1,6 +1,10 @@
 spring:
   application:
     name: hello-spring-cloud-web-admim-feign
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 thymeleaf:
   cache: false
   mode: LEGACYHTML5
